@@ -1,0 +1,26 @@
+.navbar{
+    margin: 20px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoV{
+    height: 2.5rem;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 1rem;
+}
+.nav-connect{
+    padding: 17px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, rgb(242, 67, 96) 0.46%, orange 95.5%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
