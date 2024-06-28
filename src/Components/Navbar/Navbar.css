@@ -5,7 +5,9 @@
     justify-content: space-between;
 }
 .logoV{
-    height: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
 }
 .nav-menu{
     display: flex;
@@ -20,6 +22,15 @@
     background: linear-gradient(267deg, rgb(242, 67, 96) 0.46%, orange 95.5%);
     cursor: pointer;
     transition: 0.5s;
+}
+li{
+    padding: 0.5rem 0.7rem;
+    transition: 0.5s;
+    border-radius: 0.2rem;
+}
+li:hover{
+    background-color: rgb(73, 71, 71);
+    transform: scale(1.05);
 }
 .nav-connect:hover{
     transform: scale(1.05);
